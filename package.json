@@ -1,22 +1,33 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Meerkat IT Solutions Official Website",
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@headlessui/react": "^0.2.0",
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/typography": "^0.3.1",
+    "@tailwindcss/ui": "^0.6.2",
+    "autoprefixer": "^10.0.2",
     "gatsby": "^2.24.85",
     "gatsby-image": "^2.4.21",
     "gatsby-plugin-manifest": "^2.4.35",
     "gatsby-plugin-offline": "^3.2.37",
+    "gatsby-plugin-postcss": "^3.0.4",
     "gatsby-plugin-react-helmet": "^3.3.14",
     "gatsby-plugin-sharp": "^2.6.43",
+    "gatsby-plugin-tailwindcss": "^1.0.3",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.3.35",
     "gatsby-transformer-sharp": "^2.5.19",
+    "postcss": "^8.1.10",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "tailwindcss": "^2.0.1"
   },
   "devDependencies": {
     "prettier": "2.1.2"
