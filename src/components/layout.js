@@ -11,6 +11,8 @@ import Services from "./services"
 import ContactUs from "./contact"
 // import Testimonials from "./testimonials"
 // import FAQs from "./faqs"
+import TrustedBy from "./trustedBy"
+import FrequentlyAskedQuestions from "./frequently-asked-questions"
 import Footer from "./footer"
 
 const Layout = () => {
@@ -19,12 +21,14 @@ const Layout = () => {
       <Hero2 />
       <Discover />
       {/* <TrustedBrands /> */}
-      <ScheduleCall />
+      {/* <ScheduleCall /> */}
+      <ContactUs />
       <Services />
       <Pricing />
+      <TrustedBy />
+      <FrequentlyAskedQuestions />
       {/* <Testimonials /> */}
       {/* <FAQs /> */}
-      <ContactUs />
       <Footer />
     </>
   )

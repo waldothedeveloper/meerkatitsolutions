@@ -5,15 +5,15 @@ const ContactUs = () => {
     // {/* This example requires Tailwind CSS v2.0+ */}
     <div className="bg-yellow-50">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-lg mx-auto md:max-w-none md:grid md:grid-cols-2 md:gap-8">
+        <div className="max-w-lg mx-auto md:max-w-none md:grid md:grid-cols-2 md:gap-48">
           <div>
             <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">
-              Sales Support
+              Contact Sales
             </h2>
             <div className="mt-3">
               <p className="text-lg text-gray-500">
-                Nullam risus blandit ac aliquam justo ipsum. Quam mauris
-                volutpat massa dictumst amet. Sapien tortor lacus arcu.
+                We are here for you any time you need us. <br /> Our qualified
+                sales associates will address any questions for you.
               </p>
             </div>
             <div className="mt-9">
@@ -38,7 +38,7 @@ const ContactUs = () => {
                 </div>
                 <div className="ml-3 text-base text-gray-500">
                   <p>+1 (555) 123 4567</p>
-                  <p className="mt-1">Mon-Fri 8am to 6pm PST</p>
+                  <p className="mt-1">Everyday from 8am to 6pm EST</p>
                 </div>
               </div>
               <div className="mt-6 flex">
@@ -61,7 +61,7 @@ const ContactUs = () => {
                   </svg>
                 </div>
                 <div className="ml-3 text-base text-gray-500">
-                  <p>support@example.com</p>
+                  <p>sales@meerkatitsolutions.com</p>
                 </div>
               </div>
             </div>
@@ -72,9 +72,9 @@ const ContactUs = () => {
             </h2>
             <div className="mt-3">
               <p className="text-lg text-gray-500">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni,
-                repellat error corporis doloribus similique, voluptatibus
-                numquam quam, quae officiis facilis.
+                The dog ate the server?. No problem. We'll fix it and give him a
+                treat for being such a good boy. Just let us know and help will
+                be on its way.
               </p>
             </div>
             <div className="mt-9">
@@ -99,7 +99,7 @@ const ContactUs = () => {
                 </div>
                 <div className="ml-3 text-base text-gray-500">
                   <p>+1 (555) 123 4567</p>
-                  <p className="mt-1">Mon-Fri 8am to 6pm PST</p>
+                  <p className="mt-1">Mon-Sat 7am to 10pm EST</p>
                 </div>
               </div>
               <div className="mt-6 flex">
@@ -122,7 +122,7 @@ const ContactUs = () => {
                   </svg>
                 </div>
                 <div className="ml-3 text-base text-gray-500">
-                  <p>support@example.com</p>
+                  <p>support@meerkatitsolutions.com</p>
                 </div>
               </div>
             </div>

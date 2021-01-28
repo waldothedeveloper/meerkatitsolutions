@@ -1,6 +1,12 @@
 import React from "react"
+import { useState } from "react"
+import StepsManager from "./schedules/steps_manager"
 
+//
 const ScheduleCall = () => {
+  const [isOpen, setIsOpen] = useState(false)
+  console.log("isOpen: ", isOpen)
+
   return (
     <div className="bg-yellow-50">
       <div className="max-w-3xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex-col lg:items-center lg:justify-center">
@@ -28,16 +34,17 @@ const ScheduleCall = () => {
           </div>
           <div className="flex lg:flex-shrink-0 mt-6 md:mt-0">
             <div className="inline-flex rounded-md shadow">
-              <a
-                href="/"
+              <button
+                onClick={() => setIsOpen(!isOpen)}
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-600 hover:bg-yellow-700"
               >
                 Schedule Call
-              </a>
+              </button>
             </div>
           </div>
         </div>
       </div>
+      <StepsManager isOpen={isOpen} setIsOpen={setIsOpen} />
     </div>
   )
 }

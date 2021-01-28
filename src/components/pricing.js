@@ -1,18 +1,19 @@
 import React from "react"
+import diversePeople from "../images/diverse-people.jpeg"
 
 const Pricing = () => {
   return (
-    <div className="bg-white">
+    <div>
       {/* Pricing with four tiers and toggle */}
-      <div className="bg-gradient-to-b from-white to-gray-50">
+      <div className="bg-gradient-to-t from-blueGray-100 to-blueGray-200">
         <div className="max-w-7xl mx-auto pt-24 px-4 sm:px-6 lg:px-8">
           <div className="sm:flex sm:flex-col sm:align-center">
             <h1 className="text-5xl font-extrabold text-gray-900 sm:text-center">
-              Pricing Plans
+              Popular Bundle Plans
             </h1>
             <p className="mt-5 text-xl text-gray-500 sm:text-center">
-              Start building for free, then add a site plan to go live. Account
-              plans unlock additional features.
+              All monthly plans come with 7 days free trial. <br />
+              All yearly plans come with 15 days free trial.
             </p>
             <div className="relative mt-6 bg-gray-100 rounded-lg p-0.5 flex self-center sm:mt-8">
               <button
@@ -33,7 +34,7 @@ const Pricing = () => {
             <div className="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
               <div className="p-6">
                 <h2 className="text-lg leading-6 font-medium text-gray-900">
-                  Hobby
+                  Lazuli
                 </h2>
                 <p className="mt-4 text-sm text-gray-500">
                   All the basics for starting a new business
@@ -50,7 +51,7 @@ const Pricing = () => {
                   href="/"
                   className="mt-8 block w-full bg-yellow-600 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-yellow-700"
                 >
-                  Buy Hobby
+                  Buy Lazuli
                 </a>
               </div>
               <div className="pt-6 pb-8 px-6">
@@ -104,7 +105,7 @@ const Pricing = () => {
             <div className="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
               <div className="p-6">
                 <h2 className="text-lg leading-6 font-medium text-gray-900">
-                  Freelancer
+                  Cazanna
                 </h2>
                 <p className="mt-4 text-sm text-gray-500">
                   All the basics for starting a new business
@@ -121,7 +122,7 @@ const Pricing = () => {
                   href="/"
                   className="mt-8 block w-full bg-yellow-600 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-yellow-700"
                 >
-                  Buy Freelancer
+                  Buy Cazanna
                 </a>
               </div>
               <div className="pt-6 pb-8 px-6">
@@ -195,7 +196,7 @@ const Pricing = () => {
             <div className="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
               <div className="p-6">
                 <h2 className="text-lg leading-6 font-medium text-gray-900">
-                  Startup
+                  Rufus
                 </h2>
                 <p className="mt-4 text-sm text-gray-500">
                   All the basics for starting a new business
@@ -212,7 +213,7 @@ const Pricing = () => {
                   href="/"
                   className="mt-8 block w-full bg-yellow-600 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-yellow-700"
                 >
-                  Buy Startup
+                  Buy Rufus
                 </a>
               </div>
               <div className="pt-6 pb-8 px-6">
@@ -306,7 +307,7 @@ const Pricing = () => {
             <div className="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
               <div className="p-6">
                 <h2 className="text-lg leading-6 font-medium text-gray-900">
-                  Enterprise
+                  Big Si
                 </h2>
                 <p className="mt-4 text-sm text-gray-500">
                   All the basics for starting a new business
@@ -323,7 +324,7 @@ const Pricing = () => {
                   href="/"
                   className="mt-8 block w-full bg-yellow-600 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-yellow-700"
                 >
-                  Buy Enterprise
+                  Buy Big Si
                 </a>
               </div>
               <div className="pt-6 pb-8 px-6">
@@ -728,123 +729,6 @@ const Pricing = () => {
               </div>
             </div>
           </dl>
-        </div>
-      </div>
-
-      {/* Logo cloud on brand */}
-      <div className="bg-yellow-600">
-        <div className="max-w-7xl mx-auto py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
-          <div className="lg:space-y-10">
-            <h2 className="text-3xl font-extrabold text-white">
-              The world's most innovative companies use Meerkat IT Solutions
-            </h2>
-            <div className="mt-8 flow-root lg:mt-0">
-              <div className="-mt-4 -ml-8 flex flex-wrap justify-between lg:-ml-4">
-                <div className="mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4">
-                  <img
-                    className="h-12"
-                    src="https://tailwindui.com/img/logos/tuple-logo-purple-200.svg"
-                    alt="Tuple"
-                  />
-                </div>
-                <div className="mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4">
-                  <img
-                    className="h-12"
-                    src="https://tailwindui.com/img/logos/mirage-logo-purple-200.svg"
-                    alt="Mirage"
-                  />
-                </div>
-                <div className="mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4">
-                  <img
-                    className="h-12"
-                    src="https://tailwindui.com/img/logos/statickit-logo-purple-200.svg"
-                    alt="StaticKit"
-                  />
-                </div>
-                <div className="mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4">
-                  <img
-                    className="h-12"
-                    src="https://tailwindui.com/img/logos/transistor-logo-purple-200.svg"
-                    alt="Transistor"
-                  />
-                </div>
-                <div className="mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4">
-                  <img
-                    className="h-12"
-                    src="https://tailwindui.com/img/logos/workcation-logo-purple-200.svg"
-                    alt="Workcation"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* FAQ offset */}
-      <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
-        <div className="lg:grid lg:grid-cols-3 lg:gap-8">
-          <div className="space-y-4">
-            <h2 className="text-3xl font-extrabold text-gray-900">
-              Frequently asked questions
-            </h2>
-            <p className="text-lg text-gray-500">
-              Can’t find the answer you’re looking for? Reach out to our{" "}
-              <a
-                href="/"
-                className="font-medium text-yellow-600 hover:text-lightBlue-500"
-              >
-                customer support
-              </a>{" "}
-              team.
-            </p>
-          </div>
-          <div className="mt-12 lg:mt-0 lg:col-span-2">
-            <dl className="space-y-12">
-              <div>
-                <dt className="text-lg leading-6 font-medium text-gray-900">
-                  How do you make holy water?
-                </dt>
-                <dd className="mt-2 text-base text-gray-500">
-                  You boil the hell out of it. Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Quas cupiditate laboriosam
-                  fugiat.
-                </dd>
-              </div>
-
-              <div>
-                <dt className="text-lg leading-6 font-medium text-gray-900">
-                  What&#039;s the best thing about Switzerland?
-                </dt>
-                <dd className="mt-2 text-base text-gray-500">
-                  I don&#039;t know, but the flag is a big plus. Lorem ipsum
-                  dolor sit amet consectetur adipisicing elit. Quas cupiditate
-                  laboriosam fugiat.
-                </dd>
-              </div>
-
-              <div>
-                <dt className="text-lg leading-6 font-medium text-gray-900">
-                  What do you call someone with no body and no nose?
-                </dt>
-                <dd className="mt-2 text-base text-gray-500">
-                  Nobody knows. Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Quas cupiditate laboriosam fugiat.
-                </dd>
-              </div>
-
-              <div>
-                <dt className="text-lg leading-6 font-medium text-gray-900">
-                  Why do you never see elephants hiding in trees?
-                </dt>
-                <dd className="mt-2 text-base text-gray-500">
-                  Because they&#039;re so good at it. Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Quas cupiditate laboriosam
-                  fugiat.
-                </dd>
-              </div>
-            </dl>
-          </div>
         </div>
       </div>
     </div>

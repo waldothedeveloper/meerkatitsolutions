@@ -96,7 +96,7 @@ const Discover = () => {
 
               <div className="mt-5">
                 <dt className="text-lg leading-6 font-medium text-yellow-500">
-                  Music & Arts Academies
+                  Music & Arts
                 </dt>
                 <dd className="mt-4 text-base text-blueGray-400">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.

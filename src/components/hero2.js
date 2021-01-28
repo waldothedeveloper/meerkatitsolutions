@@ -11,7 +11,7 @@ const Hero2 = () => {
           style={{ backgroundImage: `url(${yellowGirl})` }}
         >
           <Menu />
-          <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
+          <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:pb-48 lg:pt-20 lg:text-left">
             <div className="px-4 md:w-7/12 lg:w-1/2 sm:px-8 xl:pr-16">
               <h1 className="text-3xl tracking-tight font-extrabold sm:text-3xl lg:text-4xl xl:text-5xl">
                 <span className="block xl:inline text-yellow-800">
@@ -100,7 +100,7 @@ const Hero2 = () => {
                   </svg>
                 </div>
                 <div className="min-w-0 flex-1 pl-5 py-1 text-sm text-yellow-700 sm:py-3 font-semibold">
-                  <span className="font-semibold text-gray-900">
+                  <span className="font-semibold text-gray-600">
                     Rated 5 stars
                   </span>{" "}
                   by over{" "}
