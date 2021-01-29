@@ -10,7 +10,6 @@ import Pricing from "./pricing"
 import Services from "./services"
 import ContactUs from "./contact"
 // import Testimonials from "./testimonials"
-// import FAQs from "./faqs"
 import TrustedBy from "./trustedBy"
 import FrequentlyAskedQuestions from "./frequently-asked-questions"
 import Footer from "./footer"
@@ -28,7 +27,6 @@ const Layout = () => {
       <TrustedBy />
       <FrequentlyAskedQuestions />
       {/* <Testimonials /> */}
-      {/* <FAQs /> */}
       <Footer />
     </>
   )
