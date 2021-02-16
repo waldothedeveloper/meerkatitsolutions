@@ -3,7 +3,7 @@ import React from "react"
 const FrequentlyAskedQuestions = () => {
   return (
     // {/* FAQ offset */}
-    <div className="bg-blueGray-200">
+    <div className="bg-gradient-to-t from-yellow-50 to-yellow-100">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
         <div className="lg:grid lg:grid-cols-3 lg:gap-8">
           <div className="space-y-4">

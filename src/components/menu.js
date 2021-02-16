@@ -3,6 +3,7 @@ import { Transition } from "@headlessui/react"
 import logo from "../images/Meerkat-LOGO.png"
 // import logo from "../images/meerkat-new-logo.svg"
 import { useState } from "react"
+import { Link } from "gatsby"
 
 const Menu = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -325,12 +326,12 @@ const Menu = () => {
             >
               Contact
             </a>
-            <a
-              href="/"
+            <Link
+              to="/about"
               className="text-base font-medium text-blueGray-800 hover:text-blueGray-600"
             >
               About
-            </a>
+            </Link>
           </nav>
           {/* <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
           <a

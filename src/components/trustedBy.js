@@ -3,7 +3,7 @@ import React from "react"
 const TrustedBy = () => {
   return (
     // {/* Logo cloud on brand */}
-    <div className="bg-yellow-600">
+    <div className="bg-gradient-to-r from-blueGray-400 to-blueGray-700">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
         <div className="lg:space-y-10">
           <h2 className="text-3xl font-extrabold text-white">

@@ -3,7 +3,7 @@ import React from "react"
 const ContactUs = () => {
   return (
     // {/* This example requires Tailwind CSS v2.0+ */}
-    <div className="bg-gradient-to-r from-yellow-50 to-yellow-100">
+    <div className="bg-gradient-to-b from-yellow-50 to-yellow-100">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-lg mx-auto md:max-w-none md:grid md:grid-cols-2 md:gap-48">
           <div>

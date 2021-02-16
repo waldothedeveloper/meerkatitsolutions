@@ -5,7 +5,7 @@ const Pricing = () => {
   return (
     <div>
       {/* Pricing with four tiers and toggle */}
-      <div className="bg-gradient-to-t from-white to-yellow-50">
+      <div className="bg-white">
         <div className="max-w-7xl mx-auto pt-24 px-4 sm:px-6 lg:px-8">
           <div className="sm:flex sm:flex-col sm:align-center">
             <h1 className="text-5xl font-extrabold text-gray-900 sm:text-center">
@@ -15,16 +15,16 @@ const Pricing = () => {
               All monthly plans come with 7 days free trial. <br />
               All yearly plans come with 15 days free trial.
             </p>
-            <div className="relative mt-6 bg-gray-100 rounded-lg p-0.5 flex self-center sm:mt-8">
+            <div className="relative mt-6 bg-blueGray-100 rounded-lg p-0.5 flex self-center sm:mt-8">
               <button
                 type="button"
-                className="relative bg-white border-gray-200 rounded-md shadow-sm py-2 w-1/2 text-sm font-medium text-gray-700 whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-purple-500 focus:z-10 sm:w-auto sm:px-8"
+                className="relative bg-blueGray border-blueGray-200 rounded-md shadow-sm py-2 w-1/2 text-sm font-medium text-blueGray-700 whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:z-10 sm:w-auto sm:px-8"
               >
                 Monthly billing
               </button>
               <button
                 type="button"
-                className="ml-0.5 relative border border-transparent rounded-md py-2 w-1/2 text-sm font-medium text-gray-700 whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-purple-500 focus:z-10 sm:w-auto sm:px-8"
+                className="ml-0.5 relative border border-transparent rounded-md py-2 w-1/2 text-sm font-medium text-blueGray-700 whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:z-10 sm:w-auto sm:px-8"
               >
                 Yearly billing
               </button>

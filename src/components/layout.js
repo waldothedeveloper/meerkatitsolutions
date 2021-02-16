@@ -20,11 +20,11 @@ const Layout = () => {
       <Hero2 />
       <Discover />
       {/* <TrustedBrands /> */}
-      {/* <ScheduleCall /> */}
-      <ContactUs />
+      <ScheduleCall />
       <Services />
       <Pricing />
       <TrustedBy />
+      <ContactUs />
       <FrequentlyAskedQuestions />
       {/* <Testimonials /> */}
       <Footer />
